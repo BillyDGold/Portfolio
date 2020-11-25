@@ -326,7 +326,7 @@ img {
     .toggle {
         width: 40px;
         height: 40px;
-        background: url(/img/menu.png);
+        background: url(./img/menu.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px;
