@@ -14,7 +14,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background-image: url(./img/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -326,14 +326,14 @@ img {
     .toggle {
         width: 40px;
         height: 40px;
-        background: url(./img/menu.png);
+        background: url(../img/menu.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px;
         cursor: pointer;
     }
     .toggle.active {
-        background: url(/img/close.png);
+        background: url(../img/close.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
