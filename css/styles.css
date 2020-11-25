@@ -14,7 +14,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background-image: url('https://raw.githubusercontent.com/BillyDGold/Portfolio/main/img/banner.jpg');
+    background-image: url(./img/banner.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
