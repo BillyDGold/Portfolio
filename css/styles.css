@@ -40,7 +40,7 @@ section {
     font-weight: 500;
 }
 
-.banner h3 span{
+.banner h3 span {
     color: #2196f3;
     font-weight: 700;
 }
@@ -132,15 +132,21 @@ header.sticky ul li a {
 
 .contentBx {
     padding-right: 30px;
+    text-align: justify;
+}
+
+.contentBx.white {
+    color: #fff;
 }
 
 .contentBx h3 {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .w50 {
-    min-width: 50%;
+    width: calc(50% - 30px);
 }
 
 img {
@@ -288,7 +294,7 @@ img {
 }
 
 .copyright {
-    background: #000;
+    background: #111;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -374,26 +380,23 @@ img {
     .abilities .content .abilitiesBx {
         margin: 10px;
     }
-    .projects .content .projectBx{
+    .projects .content .projectBx {
         width: 100%;
         padding: 10px;
     }
-    .contactInfo{
+    .contactInfo {
         margin: 20px 0;
     }
 }
 
-@media (max-width: 600px)
-{
+@media (max-width: 600px) {
     header, header.sticky {
         padding: 20px 20px;
     }
-    .banner
-    {
+    .banner {
         padding: 150px 20px 100px;
     }
-    section{
+    section {
         padding: 100px 20px;
     }
-
 }
