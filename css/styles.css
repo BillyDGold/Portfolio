@@ -234,6 +234,7 @@ img {
     border: none;
     outline: none;
     background: #222;
+    color: #f0f0f0;
     resize: none;
 }
 
@@ -397,5 +398,12 @@ img {
     }
     section {
         padding: 100px 20px 20px 20px;
+    }
+    .content .contentBx
+    {
+        width: 100%;
+    }
+    .content .w50 img{
+        display: none;
     }
 }
