@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
 .skills {
     background: #000;
 }
@@ -10,8 +19,13 @@
     justify-content: space-between;
 }
 
+.skills .content .contentBx{
+   padding: 0 10px 0 5px;
+}
+
 .skills .content .progress .bars {
     margin-bottom: 15px;
+    padding: 0 5px 0 10px;
 }
 
 .skills .content .progress .info {
@@ -42,15 +56,15 @@
 }
 
 .skills .content .progress .java::before {
-    width: 75%;
+    width: 95%;
 }
 
 .skills .content .progress .cPlusPlus::before {
-    width: 75%;
+    width: 85%;
 }
 
 .skills .content .progress .html::before {
-    width: 75%;
+    width: 80%;
 }
 
 .skills .content .progress .css::before {
@@ -58,7 +72,11 @@
 }
 
 .skills .content .progress .javaScript::before {
-    width: 75%;
+    width: 30%;
+}
+
+.skills .content .progress .python::before {
+    width: 2%;
 }
 
 section .content .projects {
@@ -66,14 +84,15 @@ section .content .projects {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+
 }
 
 section .content .projects .projectBx {
-    padding: 40px 20px;
+    padding: 20px 0px;
     background: #222;
     color: #fff;
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 225px;
     margin: 20px;
     text-align: center;
     transition: 0.5s;
@@ -93,11 +112,57 @@ section .content .projects .projectBx h2 {
     font-weight: 600;
 }
 
-.cPlusPlus{
+.cPlusPlus {
     background: #111;
 }
 
-
-.python{
+.python {
     background: #111;
+}
+
+@media (max-width:1229px) {
+    section .content .contentBx, .skills .content .contentBx .btn {
+        display: none;
+    }
+    section .content .projects, .skills .content .progress {
+        width: 100%;
+    }
+    .skills .content .progress {
+        padding-top: 15px;
+    }
+    .skills .content .contentBx, section .content .projects::before {
+        text-align: center;
+    }
+    .skills .content {
+        flex-direction: column;
+    }
+    .skills .content .contentBx {
+        display: contents;
+    }
+    .skills .content .contentBx h3 {
+        display: none;
+    }
+    section .heading {
+        margin-bottom: 15px;
+    }
+    .java .content .projects::before {
+        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex numquam cupiditate, consequatur maxime eveniet libero unde, itaque corrupti tempora neque architecto iure quisquam eligendi natus omnis aliquid maiores, quos voluptatem';
+    }
+    .cPlusPlus .content .projects::before {
+        color: #fff;
+        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex numquam cupiditate, consequatur maxime eveniet libero unde, itaque corrupti tempora neque architecto iure quisquam eligendi natus omnis aliquid maiores, quos voluptatem';
+    }
+    .webDev .content .projects::before {
+        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex numquam cupiditate, consequatur maxime eveniet libero unde, itaque corrupti tempora neque architecto iure quisquam eligendi natus omnis aliquid maiores, quos voluptatem';
+    }
+    .python .content .projects::before {
+        color: #fff;
+        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex numquam cupiditate, consequatur maxime eveniet libero unde, itaque corrupti tempora neque architecto iure quisquam eligendi natus omnis aliquid maiores, quos voluptatem';
+    }
+}
+
+@media (max-width:600px) {
+    .skills .content .contentBx {
+        display: none;
+    }
 }
