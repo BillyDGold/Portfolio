@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding</title>
+    <title>Billy Gold</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <link rel="stylesheet" href="css/abilities.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -15,13 +15,13 @@
         <a href="index.html" class="logo">Portfolio</a>
         <div class="toggle" onclick="toggleMenu();"></div>
         <ul class="menu">
-            <li><a href="#" onclick="toggleMenu();">Home</a></li>
             <li><a href="#guitar" onclick="toggleMenu();">Guitar</a></li>
             <li><a href="#bass" onclick="toggleMenu();">Bass</a></li>
-            <li><a href="#recording" onclick="toggleMenu();">ecording</a></li>
+            <li><a href="#live" onclick="toggleMenu();">Live</a></li>
+            <li><a href="#recording" onclick="toggleMenu();">Recording</a></li>
         </ul>
     </header>
-    <section class="skills">
+    <section class="skills" id = "skills">
         <div class="heading white">
             <h2>My Skills</h2>
         </div>
@@ -38,65 +38,62 @@
             <div class="progress w50">
                 <div class="bars">
                     <div class="info">
-                        <span>Java</span>
+                        <span>Electric Guitar</span>
                         <span>95%</span>
                     </div>
                     <div class="line java"></div>
                 </div>
                 <div class="bars">
                     <div class="info">
-                        <span>C++</span>
+                        <span>Acoustic Guitar</span>
                         <span>85%</span>
                     </div>
                     <div class="line cPlusPlus"></div>
                 </div>
                 <div class="bars">
                     <div class="info">
-                        <span>HTML</span>
+                        <span>Bass</span>
                         <span>80%</span>
                     </div>
                     <div class="line html"></div>
                 </div>
                 <div class="bars">
                     <div class="info">
-                        <span>CSS</span>
+                        <span>Live</span>
                         <span>75%</span>
                     </div>
                     <div class="line css"></div>
                 </div>
                 <div class="bars">
                     <div class="info">
-                        <span>JavaScript</span>
+                        <span>Recording</span>
                         <span>30%</span>
                     </div>
                     <div class="line javaScript"></div>
                 </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>Python</span>
-                        <span>2%</span>
+            </div>
+        </div>
+    </section>
+    <section class="guitar" id="guitar">
+        <div class="heading">
+            <h2>Guitar</h2>
+        </div>
+        <div class="content">
+            <div class="projects w50">
+                <a href="downloads/BillCraft.jar" target=”_blank”>
+                    <div class="projectBx">
+                        <img src="img/icon1.png">
+                        <h2>Electric</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
                     </div>
-                    <div class="line python"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="java" id="java">
-        <div class="heading">
-            <h2>Java</h2>
-        </div>
-        <div class="content">
-            <div class="projects w50">
-                <div class="projectBx">
-                    <img src="img/icon1.png">
-                    <h2>lorem</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                </div>
-                <div class="projectBx">
-                    <img src="img/icon2.png">
-                    <h2>lorem</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                </div>
+                </a>
+                <a href="" target=”_blank”>
+                    <div class="projectBx">
+                        <img src="img/icon2.png">
+                        <h2>Acoustic</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                </a>
             </div>
             <div class="contentBx w50">
                 <h3>What I know</h3>
@@ -106,9 +103,9 @@
             </div>
         </div>
     </section>
-    <section class="cPlusPlus" id="cPlusPlus">
+    <section class="bass" id="bass">
         <div class="heading white">
-            <h2>C++</h2>
+            <h2>Bass</h2>
         </div>
         <div class="content">
             <div class="contentBx white w50">
@@ -117,36 +114,44 @@
                     eveniet libero unde, itaque corrupti tempora neque architecto iure quisquam eligendi natus omnis
                     aliquid maiores, quos voluptatem.</p>
             </div>
-            <div class="projects w50">
-                <div class="projectBx">
-                    <img src="img/icon1.png">
-                    <h2>lorem</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                </div>
+            <a href="" target=”_blank”>
+                <div class="projects w50">
+                    <div class="projectBx">
+                        <img src="img/icon1.png">
+                        <h2>Useless Machine</h2>
+                        <p>The most useless and overcomplicated machine</p>
+                    </div>
+            </a>
+            <a href="https://www.youtube.com/playlist?list=PLgTqhO1CvZaS6R9WLgLghRcvdp2qI1NNv" target=”_blank”>
                 <div class="projectBx">
                     <img src="img/icon2.png">
-                    <h2>lorem</h2>
+                    <h2>YT Tutorial Video's</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
                 </div>
-            </div>
+            </a>
+        </div>
         </div>
     </section>
-    <section class="webDev" id="webDev">
+    <section class="live" id="live">
         <div class="heading">
-            <h2>Web Dev</h2>
+            <h2>Live Shows</h2>
         </div>
         <div class="content">
             <div class="projects w50">
-                <div class="projectBx">
-                    <img src="img/icon1.png">
-                    <h2>lorem</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                </div>
-                <div class="projectBx">
-                    <img src="img/icon2.png">
-                    <h2>lorem</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                </div>
+                <a href="" target=”_blank”>
+                    <div class="projectBx">
+                        <img src="img/icon1.png">
+                        <h2>lorem</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                </a>
+                <a href="" target=”_blank”>
+                    <div class="projectBx">
+                        <img src="img/icon2.png">
+                        <h2>lorem</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                </a>
             </div>
             <div class="contentBx w50">
                 <h3>What I know</h3>
@@ -156,9 +161,9 @@
             </div>
         </div>
     </section>
-    <section class="python" id="python">
+    <section class="recording" id="recording">
         <div class="heading white">
-            <h2>Python</h2>
+            <h2>Recording</h2>
         </div>
         <div class="content">
             <div class="contentBx white w50">
@@ -168,23 +173,27 @@
                     aliquid maiores, quos voluptatem.</p>
             </div>
             <div class="projects w50">
-                <div class="projectBx">
-                    <img src="img/icon1.png">
-                    <h2>lorem</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                </div>
-                <div class="projectBx">
-                    <img src="img/icon2.png">
-                    <h2>lorem</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                </div>
+                <a href="" target=”_blank”>
+                    <div class="projectBx">
+                        <img src="img/icon1.png">
+                        <h2>lorem</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                </a>
+                <a href="" target=”_blank”>
+                    <div class="projectBx">
+                        <img src="img/icon2.png">
+                        <h2>lorem</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
     <div class="copyright">
         <p>Copyright &copy 2020 Billy Gold Portfolio. All Rights Reserved.</p>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/abilities.js"></script>
 </body>
 
 </html>

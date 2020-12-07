@@ -152,6 +152,10 @@ img {
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .abilities {
     background: #111;
 }
@@ -252,6 +256,7 @@ img {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-weight: 500;
 }
 
 .contactInfo {
@@ -403,7 +408,7 @@ img {
     {
         width: 100%;
     }
-    .content .w50 img{
+    .about .content .w50 img{
         display: none;
     }
 }

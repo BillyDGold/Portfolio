@@ -79,12 +79,12 @@
     width: 2%;
 }
 
+
 section .content .projects {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-
 }
 
 section .content .projects .projectBx {
@@ -95,7 +95,6 @@ section .content .projects .projectBx {
     height: 225px;
     margin: 20px;
     text-align: center;
-    transition: 0.5s;
 }
 
 section .content .projects .projectBx:hover {
@@ -112,11 +111,11 @@ section .content .projects .projectBx h2 {
     font-weight: 600;
 }
 
-.cPlusPlus {
+.cPlusPlus, .bass {
     background: #111;
 }
 
-.python {
+.python, .recording {
     background: #111;
 }
 
