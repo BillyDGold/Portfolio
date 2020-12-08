@@ -210,6 +210,12 @@ a{
     max-width: 100%;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
 .contact {
     background: #111;
 }

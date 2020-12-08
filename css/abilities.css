@@ -88,10 +88,10 @@ section .content .projects {
 }
 
 section .content .projects .projectBx {
-    padding: 20px 0px;
+    padding: 20px 10px;
     background: #222;
     color: #fff;
-    width: 250px;
+    width: 350px;
     height: 225px;
     margin: 20px;
     text-align: center;
@@ -119,7 +119,7 @@ section .content .projects .projectBx h2 {
     background: #111;
 }
 
-@media (max-width:1229px) {
+@media (max-width:1650px) {
     section .content .contentBx, .skills .content .contentBx .btn {
         display: none;
     }
